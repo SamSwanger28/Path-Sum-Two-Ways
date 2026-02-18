@@ -7,8 +7,9 @@ import pandas as pd
 
 class Shortest_Path():
     def __init__(self):
-        self.matrix = pd.read_table('0081_matrix.txt')
+        self.matrix = pd.read_table('0081_matrix.txt' , header = None)
         self.a_value = 0 #will use to count value of path
+    
 
 
 
